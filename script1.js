@@ -17,3 +17,5 @@ function blabla() {
      palpite = prompt("Qual o número que eu escolhi?");
 }
     alert("Finalmente! e so precisou de: " + contador + " tentativas!");
+}
+//ficou faltando so o } final ai nao estava aparecendo a mensagem no final
