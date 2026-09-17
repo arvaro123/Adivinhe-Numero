@@ -1,0 +1,39 @@
+body{
+    font-family: cursive;
+    background-color: aliceblue;
+}
+.box-geral{
+    background-color: rgb(183, 199, 212);
+    box-shadow: 20px 15px 13px rgb(0, 0, 0, 0.1); /* O 0px é o deslocamento horizontal, o 4px é o deslocamento vertical e por fim o 10px é o desfoque*/
+    width: 300px;
+    height: 250px;
+    margin-top: 30vh;
+    margin-left: 35%;
+    margin-right: 35px;
+    padding: 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    margin-top: 30px;
+    font-size: 30px;
+}
+p{
+    font-size: 10px;
+}
+h2{
+    font-size: 20px;
+}
+button{
+    background-color: rgb(223, 212, 151);
+    border: none;
+    border-radius: 7px;
+    width: 200px;
+    height: 40px;
+    font-family: sans-serif;
+    margin: 17px;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
