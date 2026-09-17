@@ -1,18 +1,19 @@
-function startGame() {
-    alert("Bem vindo, vamos começar o nosso desafio de adivinhação");
+function blabla() {
+    
+    alert("Bem vindo, adivinhe se for capaz");
     const num1 = Math.floor(Math.random() * 100) + 1;
-    const respostaCerta = num1;
+    const resposta = num1;
 
     let contador = 0;
     let palpite = prompt("Qual o número que eu escolhi?");
    
-    while (palpite != respostaCerta) {
-        if (palpite > respostaCerta) {
-            alert("Muito alto");
-        } else if (palpite < respostaCerta) {
-            alert("Muito baixo!");
+    while (palpite != resposta) {
+        if (palpite > resposta) {
+            alert("passou");
+        } else if (palpite < resposta) {
+            alert("falta um pouco!");
         }
      contador++;
      palpite = prompt("Qual o número que eu escolhi?");
 }
-    alert("Você adivinhou! Com um total de: " + contador + " tentativas!");
+    alert("Finalmente! e so precisou de: " + contador + " tentativas!");
