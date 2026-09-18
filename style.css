@@ -5,8 +5,8 @@ body{
 .box-geral{
     background-color: rgb(183, 199, 212);
     box-shadow: 20px 15px 13px rgb(0, 0, 0, 0.1); /* O 0px é o deslocamento horizontal, o 4px é o deslocamento vertical e por fim o 10px é o desfoque*/
-    width: 300px;
-    height: 250px;
+    width: 500px;
+    height: 350px;
     margin-top: 30vh;
     margin-left: 35%;
     margin-right: 35px;
@@ -15,23 +15,24 @@ body{
     text-align: center;
 }
 h1{
-    margin-top: 30px;
+    margin-top: 45px;
     font-size: 30px;
 }
 p{
-    font-size: 10px;
+    font-size: 13px;
 }
 h2{
-    font-size: 20px;
+    font-size: 25px;
 }
 button{
     background-color: rgb(223, 212, 151);
     border: none;
     border-radius: 7px;
-    width: 200px;
-    height: 40px;
+    width: 300px;
+    height: 60px;
     font-family: sans-serif;
-    margin: 17px;
+    margin: 23px;
+    font-size: 17px;
 }
 button:hover{
     background-color: red;
